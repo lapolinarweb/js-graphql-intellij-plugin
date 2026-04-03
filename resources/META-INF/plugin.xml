@@ -312,6 +312,8 @@
                                implementationClass="com.intellij.lang.jsgraphql.ide.validation.GraphQLInspectionSuppressor"/>
 
     <microservices.endpointsProvider implementation="com.intellij.lang.jsgraphql.ide.microservices.GraphQLEndpointsProvider"/>
+    <projectSettings service="com.intellij.lang.jsgraphql.ide.introspection.source.GraphQLGeneratedSourcesManager"/>
+    <projectSettings service="com.intellij.lang.jsgraphql.GraphQLSettings"/>
   </extensions>
 
   <extensions defaultExtensionNs="JavaScript">
