@@ -39,6 +39,8 @@ jvm_library(
     "@community//platform/workspace/storage",
     "@community//libraries/gson",
     "//plugins/JavaScriptLanguage/javascript-common",
+    "//plugins/JavaScriptLanguage/javascript-psi-impl",
+    "//plugins/JavaScriptLanguage/js-analysis-impl:javascript-analysis-impl",
   ]
 )
 
@@ -74,6 +76,8 @@ jvm_library(
     "@community//platform/workspace/storage:storage_test_lib",
     "@community//libraries/gson:gson_test_lib",
     "//plugins/JavaScriptLanguage/javascript-common:javascript-common_test_lib",
+    "//plugins/JavaScriptLanguage/javascript-psi-impl:javascript-psi-impl_test_lib",
+    "//plugins/JavaScriptLanguage/js-analysis-impl:javascript-analysis-impl_test_lib",
   ]
 )
 ### auto-generated section `build intellij.graphql.javascript` end

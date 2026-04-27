@@ -34,5 +34,7 @@
     <orderEntry type="module" module-name="intellij.platform.workspace.storage" />
     <orderEntry type="module" module-name="intellij.libraries.gson" />
     <orderEntry type="module" module-name="intellij.javascript.common" />
+    <orderEntry type="module" module-name="intellij.javascript.psi.impl" />
+    <orderEntry type="module" module-name="intellij.javascript.analysis.impl" />
   </component>
 </module>
